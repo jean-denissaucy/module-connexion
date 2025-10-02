@@ -1,0 +1,70 @@
+form {
+    border: 1px solid #5b34db;
+}
+body {
+    background-color:#3498db;
+}
+
+.containaire {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 2px solid #4CAF50;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    background-color: #fdfdfd;
+    font-family: Arial, sans-serif;
+}
+
+
+.containaire label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.containaire input[type="text"],
+.containaire input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+.containaire input[type="text"]:focus,
+.containaire input[type="password"]:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    outline: none;
+}
+
+
+.containaire input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Bouton au survol */
+.containaire input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Message d'erreur */
+.containaire .error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
