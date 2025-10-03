@@ -13,7 +13,6 @@ session_start();
 </head>
 <body>
     <h1><center>Bienvenue sur le site</center></h1>
-<nav>
     <h1> Mon Site</h1>
     <ul>
         <?php if (isset($_SESSION['user'])): ?>
